@@ -54,7 +54,7 @@ public:
 	int scroll();
 	int scrollok(bool);
 	int setscrreg(int top, int bottom);
-	Ptr subwin(int height, int width, int y, int x);
+	Ptr subwin(int x, int y, int width, int height);
 	void timeout(int);
 
 private:

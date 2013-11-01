@@ -157,7 +157,7 @@ namespace curses {
 		return ::wsetscrreg(_impl->wnd, top, bottom);
 	}
 
-	Window::Ptr Window::subwin(int height, int width, int y, int x) {
+	Window::Ptr Window::subwin(int x, int y, int width, int height) {
 		Window::Ptr p = std::shared_ptr<Window>();
 		p->_impl->wnd = ::subwin(_impl->wnd, height, width, y, x);
 		return p;

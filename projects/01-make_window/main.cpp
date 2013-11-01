@@ -15,13 +15,12 @@ int main() {
     WINDOW* mainWindow = newwin(LINES, COLS, 0, 0);
     wbkgd(mainWindow, COLOR_PAIR(1));
      
-    // íÜâõëµÇ¶
-    wmove(mainWindow, 3, ((COLS-1)-strlen("Hello world!!")) / 2);
-    waddstr(mainWindow, "Hello world!!");
-     
-    mvwaddch(mainWindow, 5, 5, 'a' | COLOR_PAIR(2));
-    wrefresh(mainWindow);
-    
+	// íÜâõëµÇ¶
+	wmove(mainWindow, 3, ((COLS-1)-strlen("Hello world!!")) / 2);
+	waddstr(mainWindow, "Hello world!!");
+	mvwaddch(mainWindow, 5, 5, 'a' | COLOR_PAIR(2));
+	wrefresh(mainWindow);
+
 	while (1) ;
 
     endwin();// ç≈å„ÇÃå„ï–ïtÇØ
