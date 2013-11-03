@@ -28,6 +28,8 @@ public:
 	Window(int x, int y, int width, int height);
 	~Window();
 
+	void getChar();
+
 	int mvderwin(int x, int y);// 親ウィンドウの中で移動
 	int mvwin(int x, int y);// ウィンドウを移動
 	int addstr(std::string);

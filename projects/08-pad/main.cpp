@@ -1,3 +1,5 @@
+// prefresh ‚É‚Â‚¢‚Ä
+// http://docs.oracle.com/cd/E19455-01/816-3522/6m9q1pt6r/index.html
 #pragma comment(lib , "pdcurses.lib")
 
 #include <curses.h>
