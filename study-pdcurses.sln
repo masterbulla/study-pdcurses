@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14-basic2_window", "project
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15-basic2_window-update", "projects\15-basic2_window-update\15-basic2_window-update.vcxproj", "{D450B2AE-6E1A-41BD-9C28-C4228D0DBCB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16-tetrislike", "projects\16-tetrislike\16-tetrislike.vcxproj", "{8EE1D142-62D7-4FA9-BED7-6A327802808F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -97,6 +99,10 @@ Global
 		{D450B2AE-6E1A-41BD-9C28-C4228D0DBCB3}.Debug|Win32.Build.0 = Debug|Win32
 		{D450B2AE-6E1A-41BD-9C28-C4228D0DBCB3}.Release|Win32.ActiveCfg = Release|Win32
 		{D450B2AE-6E1A-41BD-9C28-C4228D0DBCB3}.Release|Win32.Build.0 = Release|Win32
+		{8EE1D142-62D7-4FA9-BED7-6A327802808F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EE1D142-62D7-4FA9-BED7-6A327802808F}.Debug|Win32.Build.0 = Debug|Win32
+		{8EE1D142-62D7-4FA9-BED7-6A327802808F}.Release|Win32.ActiveCfg = Release|Win32
+		{8EE1D142-62D7-4FA9-BED7-6A327802808F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
