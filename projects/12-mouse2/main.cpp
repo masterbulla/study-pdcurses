@@ -122,7 +122,6 @@ int main() {
 				wrefresh(mouseInfo);
 			}
 		}
-
 	}
      
     endwin();
